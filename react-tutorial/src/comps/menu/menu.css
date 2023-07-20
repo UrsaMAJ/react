@@ -1,0 +1,40 @@
+.menu{
+    margin: 0 2vw 0 2vw;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.menuBanner{
+    height:15vh;
+    border: solid black 2px;
+    margin: 2vh 0 2vh 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menuItemContainer{
+    margin: 1vw;
+    float: left;
+    padding: 1vw;
+    border-radius: 5%;
+    width:27.5vw;
+    border: solid black 2px
+}
+
+.menuItemBanner {
+    
+    font-weight: bolder;
+}
+
+.menuItemPictureContainer{
+
+}
+
+.menuItemPicture{
+
+}
+
+.menuItemDescrContainer{
+
+}
