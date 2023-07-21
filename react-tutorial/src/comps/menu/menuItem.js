@@ -1,16 +1,18 @@
 
-function MenuItem(){
+
+
+function MenuItem(props){
     return(
         <div className='menuItemContainer'>
             <div className='menuItemBanner'>
-                <h2> Item 1</h2>
+                <h2> {props.itemName}</h2>
             </div>
-            <div className='menuItemPictureContainer'>
-                <img className='menuItemPicture'></img>
+            <div  className='menuItemPictureContainer'>
+                <img src={props.itemImg} className='menuItemPicture'></img>
             </div>
             <div className='menuItemDescrContainer'>
-                <h3>Menu Item 1 Description</h3>
-                <h3>Price</h3>
+                <h3>{props.ItemDescr}</h3>
+                <h3>{props.itemPrice}</h3>
             </div>
         </div>
         
